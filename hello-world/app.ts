@@ -12,19 +12,31 @@ import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 
 export const lambdaHandler = async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
     try {
-        return {
-            statusCode: 200,
-            body: JSON.stringify({
-                message: 'hello world',
-            }),
-        };
+        if (event.httpMethod === 'POST') {
+            // Handle POST request
+            const body = JSON.parse(event.body || '{}');
+            // Process the body...
+            return {
+                statusCode: 200,
+                body: JSON.stringify({
+                    message: 'POST request processed'
+                })
+            };
+        } else if (event.httpMethod === 'GET') {
+            // Handle GET request
+            return {
+                statusCode: 200,
+                body: JSON.stringify({
+                    message: 'GET request processed'
+                })
+            };
+        }
     } catch (err) {
-        console.log(err);
         return {
             statusCode: 500,
             body: JSON.stringify({
-                message: 'some error happened',
-            }),
+                message: 'Internal server error'
+            })
         };
     }
 };
