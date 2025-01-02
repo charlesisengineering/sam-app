@@ -1,0 +1,297 @@
+{
+    "headers" : {
+        "baggage": "sentry-environment=production,sentry-release=a6dd285b,sentry-public_key=236a8dca8f6cd604f5dc96695c9013b9,sentry-trace_id=28c9bb3eeb3542fa8df0395da5fbb87c",
+        "content-length": "6595",
+        "content-type": "application/json",
+        "sentry-trace": "28c9bb3eeb3542fa8df0395da5fbb87c-8776bffaee0e4947",
+        "signature": "e9c4ee3a702e2e8cbff9d7d5bbe1e36b0ab6a400b175ccc4f25a3e8f30274a51",
+        "user-agent": "Hospitable"
+    },
+    "body" : {
+        "id": "9ddc392b-61ad-4f25-aeff-9516e3718c3f",
+        "data": {
+        "id": "8d7d80b6-c696-44ce-a055-57b4678f5b60",
+        "code": "HM92XHA5KC",
+        "user": {
+            "id": "d58f03af-c495-5a33-898e-405328341b08",
+            "name": "Charles Alexander",
+            "email": "charlesisrenting@gmail.com"
+        },
+        "guest": {
+            "id": "186110493",
+            "email": null,
+            "language": "en",
+            "location": null,
+            "last_name": "Davis",
+            "first_name": "Davis",
+            "phone_numbers": [
+            "17712159102"
+            ],
+            "profile_picture": "https://a0.muscache.com/im/pictures/user/08306295-44aa-4b2d-9539-7c01d2ec2efd.jpg?aki_policy=profile_x_medium"
+        },
+        "guests": {
+            "total": 1,
+            "pet_count": 0,
+            "adult_count": 1,
+            "child_count": 0,
+            "infant_count": 0
+        },
+        "review": null,
+        "status": "accepted",
+        "check_in": "2025-01-02T15:00:00-08:00",
+        "listings": [
+            {
+            "platform": "airbnb",
+            "platform_id": "977619316255829109"
+            }
+        ],
+        "platform": "airbnb",
+        "check_out": "2025-01-18T10:00:00-08:00",
+        "financials": {
+            "host": {
+            "taxes": [],
+            "revenue": {
+                "label": "Revenue",
+                "amount": 140502,
+                "category": "Revenue",
+                "formatted": "$1,405.02"
+            },
+            "discounts": [
+                {
+                "label": "Length Of Stay Discount",
+                "amount": -19253,
+                "category": "Discounts",
+                "formatted": "-$192.53"
+                }
+            ],
+            "host_fees": [
+                {
+                "label": "Host Service Fee",
+                "amount": -4345,
+                "category": "Service fees",
+                "formatted": "-$43.45"
+                }
+            ],
+            "guest_fees": [
+                {
+                "label": "Cleaning Fee",
+                "amount": 16000,
+                "category": "Guest fees",
+                "formatted": "$160.00"
+                }
+            ],
+            "adjustments": [],
+            "accommodation": {
+                "label": "Accommodation",
+                "amount": 148100,
+                "category": "Accommodation",
+                "formatted": "$1,481.00"
+            },
+            "accommodation_breakdown": null
+            },
+            "guest": {
+            "fees": [
+                {
+                "label": "Cleaning Fee",
+                "amount": 16000,
+                "category": "Guest fees",
+                "formatted": "$160.00"
+                },
+                {
+                "label": "Guest Service Fee",
+                "amount": 20449,
+                "category": "Service fees",
+                "formatted": "$204.49"
+                }
+            ],
+            "taxes": [
+                {
+                "label": "Local Sales and Use Tax (Regional Transit Authority)",
+                "amount": 661,
+                "category": "Taxes",
+                "formatted": "$6.61"
+                },
+                {
+                "label": "General Sales and Use Tax (Washington)",
+                "amount": 10744,
+                "category": "Taxes",
+                "formatted": "$107.44"
+                },
+                {
+                "label": "Lodging Tax (Seattle)",
+                "amount": 6400,
+                "category": "Taxes",
+                "formatted": "$64.00"
+                },
+                {
+                "label": "Lodging Tax (King)",
+                "amount": 11571,
+                "category": "Taxes",
+                "formatted": "$115.71"
+                },
+                {
+                "label": "General Sales and Use Tax (Seattle)",
+                "amount": 2975,
+                "category": "Taxes",
+                "formatted": "$29.75"
+                }
+            ],
+            "payments": [],
+            "discounts": [
+                {
+                "label": "Length Of Stay Discount",
+                "amount": -19253,
+                "category": "Discounts",
+                "formatted": "-$192.53"
+                }
+            ],
+            "adjustments": [],
+            "total_price": {
+                "label": "Guest Total Price",
+                "amount": 197647,
+                "category": "Guest total price",
+                "formatted": "$1,976.47"
+            },
+            "accommodation": {
+                "label": "Accommodation",
+                "amount": 128847,
+                "category": "Accommodation",
+                "formatted": "$1,288.47"
+            },
+            "average_nightly_rate": {
+                "label": "Average Nightly Rate",
+                "amount": 8052,
+                "category": "Accommodation",
+                "formatted": "$80.52"
+            }
+            },
+            "currency": "USD"
+        },
+        "properties": [
+            {
+            "id": "68ed0d13-cf00-4ef8-aba1-b85db359067f",
+            "name": "Sound Breeze",
+            "tags": [],
+            "listed": true,
+            "address": {
+                "city": "Seattle",
+                "state": "WA",
+                "street": "6725 36th Avenue Southwest",
+                "country": "US",
+                "display": "6725 36th Avenue Southwest, Seattle, WA, 98126, US",
+                "postcode": "98126",
+                "coordinates": {
+                "latitude": "47.54212960",
+                "longitude": "-122.37823570"
+                }
+            },
+            "checkin": "15:00",
+            "picture": "https://a0.muscache.com/im/pictures/airflow/Hosting-977619316255829109/original/f99dbbbc-b319-4514-9920-078afd9bd845.jpg?aki_policy=small",
+            "summary": "Kick back and relax in this newly renovated guest suite. The serene Gatewood neighborhood features stunning Puget Sound views, an abundance of walkable cafes, restaurants, and parks, and convenient access to the Morgan Junction, Lincoln Park, or Downtown Seattle.",
+            "capacity": {
+                "max": 4,
+                "beds": 3,
+                "bedrooms": 2,
+                "bathrooms": 1
+            },
+            "checkout": "10:00",
+            "currency": "USD",
+            "timezone": "-0800",
+            "amenities": [
+                "baking_sheet",
+                "barbeque_utensils",
+                "bathtub",
+                "bed_linens",
+                "body_soap",
+                "carbon_monoxide_detector",
+                "cleaning_before_checkout",
+                "cleaning_products",
+                "coffee",
+                "coffee_maker",
+                "conditioner",
+                "cooking_basics",
+                "dining_table",
+                "dishes_and_silverware",
+                "dishwasher",
+                "dryer",
+                "essentials",
+                "extra_pillows_and_blankets",
+                "fire_extinguisher",
+                "freezer",
+                "free_parking",
+                "garden_or_backyard",
+                "hair_dryer",
+                "hangers",
+                "heating",
+                "hot_water",
+                "hot_water_kettle",
+                "iron",
+                "kitchen",
+                "kitchenette",
+                "laptop_friendly_workspace",
+                "long_term_stays_allowed",
+                "microwave",
+                "outdoor_seating",
+                "oven",
+                "patio_or_belcony",
+                "portable_fans",
+                "private_entrance",
+                "refrigerator",
+                "room_darkening_shades",
+                "shampoo",
+                "shower_gel",
+                "single_level_home",
+                "smoke_detector",
+                "stove",
+                "toaster",
+                "trash_can",
+                "tv",
+                "wardrobe_or_closet",
+                "washer",
+                "wireless_internet"
+            ],
+            "room_type": "Entire Home",
+            "description": "Kick back and relax in this newly renovated guest suite. The serene Gatewood neighborhood features stunning Puget Sound views, an abundance of walkable cafes, restaurants, and parks, and convenient access to the Morgan Junction, Lincoln Park, or Downtown Seattle.\n\nThe guest suite is located on the basement floor of a detached home, and is completely seperate from the unit above. The entrance opens to a stylish, newly renovated kitchen, a living space with West Elm furnishings and a smart TV, and a dining set for four. The kitchen is fully stocked with everything you'll need to cook during your stay, as well as coffee and tea supplies. The suite has two cozy bedrooms - the first features a king bed and the second has two twin beds. The bathroom is also newly renovated and features a tile shower surround and full sized bathtub. A laundry room and an office with a workstation round out the unit, and fiber optic internet ensures a reliable and high performance connection for guests looking to stream or work remotely during their stay.\n\nAlthough this unit it freshly renovated, the home itself is older and sound travels fairly well. This makes this unit ideal for groups who are happy to relax quietly once quiet hours begin. The tenants upstairs are young professionals and are generally in bed early.\n\nThe entire guest suite is private and reserved for your group only. There are no shared spaces in the unit.\n\nGatewood is a serene neighborhood with lush greenery, abundant parks and cafes, and stunning views of the Puget Sound and Downtown Seattle. The quiet neighborhood is a walker's delight with coffee shops like Nos Nos, Realfine, and Cafe Ladro within easy walking distance.\n\nGatewood has great options for food and coffee within easy walking distance of your rental unit. Getting to the West Seattle junction is a short bus ride away on the 128 and Downtown Seattle is just over 20 minutes away on the 21 bus - both stops are less than two blocks away. Finally, for guests with cars we offer safe off street parking and a 15 minute drive to Downtown Seattle (without traffic).",
+            "house_rules": {
+                "pets_allowed": false,
+                "events_allowed": null,
+                "smoking_allowed": false
+            },
+            "room_details": [],
+            "property_type": "house",
+            "calendar_restricted": false
+            }
+        ],
+        "platform_id": "HM92XHA5KC",
+        "arrival_date": "2025-01-02T00:00:00-08:00",
+        "booking_date": "2025-01-01T00:35:52Z",
+        "departure_date": "2025-01-18T00:00:00-08:00",
+        "status_history": [
+            {
+            "status": "accepted",
+            "category": "Accepted",
+            "changed_at": "2025-01-01T00:36:04+00:00"
+            }
+        ],
+        "conversation_id": "e9c10038-db71-4c7e-9496-6bfb8d0586b8",
+        "last_message_at": "2025-01-01T00:35:53+00:00",
+        "reservation_status": {
+            "current": {
+            "category": "accepted",
+            "sub_category": null
+            },
+            "history": [
+            {
+                "category": "accepted",
+                "changed_at": "2025-01-01T00:36:04+00:00",
+                "sub_category": null
+            }
+            ]
+        }
+        },
+        "action": "reservation.created",
+        "created": "2025-01-01T00:36:15Z",
+        "version": "v2",
+        "triggers": []
+    }
+}

@@ -1,0 +1,283 @@
+{
+    "headers" : {
+        "baggage": "sentry-environment=production,sentry-release=a6dd285b,sentry-public_key=236a8dca8f6cd604f5dc96695c9013b9,sentry-trace_id=28c9bb3eeb3542fa8df0395da5fbb87c",
+        "content-length": "6595",
+        "content-type": "application/json",
+        "sentry-trace": "28c9bb3eeb3542fa8df0395da5fbb87c-8776bffaee0e4947",
+        "signature": "e9c4ee3a702e2e8cbff9d7d5bbe1e36b0ab6a400b175ccc4f25a3e8f30274a51",
+        "user-agent": "Hospitable"
+    },
+    "body" : {
+        "id": "9dba96bf-9725-4204-aa18-d760487eda98",
+        "data": {
+          "id": "abb1f498-651b-4325-9d23-973a3b7e625d",
+          "code": "HA-D5NL5J",
+          "user": {
+            "id": "d58f03af-c495-5a33-898e-405328341b08",
+            "name": "Charles Alexander",
+            "email": "charlesisrenting@gmail.com"
+          },
+          "guest": {
+            "id": "727837ae-f564-4435-80c4-956a0a3a4f7b",
+            "email": null,
+            "language": null,
+            "location": "",
+            "last_name": "Ortiz",
+            "first_name": "Stacy",
+            "phone_numbers": [
+              null
+            ],
+            "profile_picture": null
+          },
+          "guests": {
+            "total": 3,
+            "pet_count": 0,
+            "adult_count": 3,
+            "child_count": 0,
+            "infant_count": 0
+          },
+          "review": null,
+          "status": "expired",
+          "check_in": "2024-12-28T15:00:00-08:00",
+          "listings": [
+            {
+              "platform": "homeaway",
+              "platform_id": "121.9445079.8524161"
+            }
+          ],
+          "platform": "homeaway",
+          "check_out": "2024-12-31T10:00:00-08:00",
+          "financials": {
+            "host": {
+              "taxes": [],
+              "revenue": {
+                "label": "Revenue",
+                "amount": 0,
+                "category": "Revenue",
+                "formatted": "$0.00"
+              },
+              "discounts": [],
+              "host_fees": [],
+              "guest_fees": [
+                {
+                  "label": "Cleaning Fee",
+                  "amount": 14500,
+                  "category": "Guest fees",
+                  "formatted": "$145.00"
+                }
+              ],
+              "adjustments": [],
+              "accommodation": {
+                "label": "3 nights",
+                "amount": 38745,
+                "category": "Accommodation",
+                "formatted": "$387.45"
+              },
+              "accommodation_breakdown": null
+            },
+            "guest": {
+              "fees": [
+                {
+                  "label": "Cleaning Fee",
+                  "amount": 14500,
+                  "category": "Guest fees",
+                  "formatted": "$145.00"
+                },
+                {
+                  "label": "Guest service fee",
+                  "amount": 7400,
+                  "category": "Service fees",
+                  "formatted": "$74.00"
+                }
+              ],
+              "taxes": [
+                {
+                  "label": "Lodging taxes Vrbo remits",
+                  "amount": 8659,
+                  "category": "Taxes",
+                  "formatted": "$86.59"
+                }
+              ],
+              "payments": [
+                {
+                  "label": "Payment 1 of 1",
+                  "amount": 69304,
+                  "category": "Payment",
+                  "formatted": "$693.04"
+                }
+              ],
+              "discounts": [],
+              "adjustments": [],
+              "total_price": {
+                "label": "Guest Total Price",
+                "amount": 69304,
+                "category": "Guest total price",
+                "formatted": "$693.04"
+              },
+              "accommodation": {
+                "label": "Accommodation",
+                "amount": 38745,
+                "category": "Accommodation",
+                "formatted": "$387.45"
+              },
+              "average_nightly_rate": {
+                "label": "Average Nightly Rate",
+                "amount": 12915,
+                "category": "Accommodation",
+                "formatted": "$129.15"
+              }
+            },
+            "currency": "USD"
+          },
+          "properties": [
+            {
+              "id": "cd772683-92f8-4bdc-ad7d-a09bc47b3bc3",
+              "name": "Songbird Suite",
+              "tags": [],
+              "listed": true,
+              "address": {
+                "city": "Seattle",
+                "state": "WA",
+                "street": "10208 15th Avenue Northeast",
+                "country": "US",
+                "display": "10208 15th Avenue Northeast, Seattle, WA, 98125, US",
+                "postcode": "98125",
+                "coordinates": {
+                  "latitude": "47.70236588",
+                  "longitude": "-122.31218719"
+                }
+              },
+              "checkin": "15:00",
+              "picture": "https://a0.muscache.com/im/pictures/2824e92d-d562-4da1-9e59-f6b477da3ae7.jpg?aki_policy=small",
+              "summary": "This spacious newly renovated 1100 sqft Maple Leaf mother-in-law invites you to relax after a day of exploring Seattle. Located just North of the heart of the city this suite offers convenient access to the heart of Seattle with just one bus ride from a stop a block away. The private suite accommodates 4 guests with plenty of space to stretch out, super-fast fiber internet, a new 65\" smart TV, and a brand new kitchen for preparing meals.",
+              "capacity": {
+                "max": 4,
+                "beds": 3,
+                "bedrooms": 2,
+                "bathrooms": 1
+              },
+              "checkout": "10:00",
+              "currency": "USD",
+              "timezone": "-0800",
+              "amenities": [
+                "ac",
+                "bathtub",
+                "bed_linens",
+                "carbon_monoxide_detector",
+                "coffee",
+                "coffee_maker",
+                "cooking_basics",
+                "dining_table",
+                "dishes_and_silverware",
+                "dishwasher",
+                "dryer",
+                "essentials",
+                "fireplace",
+                "fire_extinguisher",
+                "freezer",
+                "free_parking",
+                "garden_or_backyard",
+                "hair_dryer",
+                "hangers",
+                "heating",
+                "hot_water",
+                "hot_water_kettle",
+                "iron",
+                "kitchen",
+                "microwave",
+                "outdoor_seating",
+                "patio_or_belcony",
+                "private_entrance",
+                "refrigerator",
+                "shampoo",
+                "smoke_detector",
+                "stove",
+                "toaster",
+                "trash_can",
+                "tv",
+                "wardrobe_or_closet",
+                "washer",
+                "wireless_internet"
+              ],
+              "room_type": "Entire Home",
+              "description": "This spacious newly renovated 1100 sqft Maple Leaf mother-in-law invites you to relax after a day of exploring Seattle. Located just North of the heart of the city this suite offers convenient access to the heart of Seattle with just one bus ride from a stop a block away. The private suite accommodates 4 guests with plenty of space to stretch out, super-fast fiber internet, a new 65\" smart TV, and a brand new kitchen for preparing meals.\n\nThe space is freshly remodeled for 2021 making it a peaceful and beautiful retreat in the quaint Maple Leaf neighborhood that's still within easy reach of the hustle and bustle the heart of Seattle. The spacious new kitchen, onsite laundry, and blazing fast fiber optic internet make it a perfect choice for guests looking for a temporary home for a longer term stay. New pictures will be posted in mid-March and the unit will be available to guests again in late March. We look forward to hosting you!\n\nThe home itself is older and sound travels fairly well, which makes it ideal for groups who are happy to relax quietly once quiet hours begin. The tenants upstairs are young professionals and are generally in bed early.\n\nGuests have access to the entire daylight basement including laundry room as well as the backyard and patio.\n\nMaple Leaf provides a tranquil environment just north of the center of Seattle with plenty of cool eateries and easy access to the developing Northgate area.\n\nThe cross streets for the Airbnb are 15th Ave NE and NE 102nd Street.\n\nA parking spot in front of the house is available to guests with cars. 15th Ave also is a major bus line providing easy access to most other parts of Seattle without needing to transfer.\n\nNo keys to lose or to return! This property provides secure, keyless entry with an August Smart Lock. You can lock and unlock the door with your smartphone, using a unique virtual key or personal entry code issued to you for the duration of your stay.",
+              "house_rules": {
+                "pets_allowed": true,
+                "events_allowed": false,
+                "smoking_allowed": false
+              },
+              "room_details": [
+                {
+                  "beds": [
+                    {
+                      "type": "single_bed",
+                      "quantity": 2
+                    }
+                  ]
+                },
+                {
+                  "beds": [
+                    {
+                      "type": "couch",
+                      "quantity": 1
+                    }
+                  ]
+                },
+                {
+                  "beds": [
+                    {
+                      "type": "queen_bed",
+                      "quantity": 1
+                    }
+                  ]
+                }
+              ],
+              "property_type": "guest_suite",
+              "calendar_restricted": false
+            }
+          ],
+          "platform_id": "HA-D5NL5J",
+          "arrival_date": "2024-12-28T00:00:00-08:00",
+          "booking_date": null,
+          "departure_date": "2024-12-31T00:00:00-08:00",
+          "status_history": [
+            {
+              "status": "PAYMENT_REQUEST_SENT",
+              "category": "Pre-approved",
+              "changed_at": "2024-12-11T05:59:49+00:00"
+            },
+            {
+              "status": "PAYMENT_REQUEST_EXPIRED",
+              "category": "Expired",
+              "changed_at": "2024-12-14T06:00:09+00:00"
+            }
+          ],
+          "conversation_id": "68598a1f-d87d-45ec-83ae-3fb9d348b1e9",
+          "last_message_at": "2024-12-14T15:58:00+00:00",
+          "reservation_status": {
+            "current": {
+              "category": "not accepted",
+              "sub_category": null
+            },
+            "history": [
+              {
+                "category": "unknown",
+                "changed_at": "2024-12-11T05:59:49+00:00",
+                "sub_category": null
+              },
+              {
+                "category": "not accepted",
+                "changed_at": "2024-12-14T06:00:09+00:00",
+                "sub_category": null
+              }
+            ]
+          }
+        },
+        "action": "reservation.created",
+        "created": "2024-12-15T07:19:46Z",
+        "version": "v2",
+        "triggers": [
+          "test"
+        ]
+      }
+}
