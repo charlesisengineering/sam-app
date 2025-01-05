@@ -1,3 +1,6 @@
+# Description
+This is an AWS SAM application for receiving Hospitable webhook requests and using them to update a Supabase DB
+
 # sam-app
 
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
